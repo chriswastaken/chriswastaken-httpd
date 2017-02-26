@@ -18,5 +18,5 @@ RUN rm -f $HTTPD_HTDOCS/index.html && \
 # Pull project
 RUN git clone https://github.com/chriswastaken/chriswastaken-public.git $HTTPD_PREFIX/htdocs
  
-# Open port 4567
+# Open port 80
 EXPOSE 80
